@@ -1,0 +1,45 @@
+html{
+    background: #333;
+    margin: 0;
+    overflow: hidden;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.box{
+    width: 45rem;
+    text-align: center;
+    padding: 0;
+}
+.time{
+    width: 100%;
+    font-size: 4rem;
+    background: black;
+    padding: 4rem 5px;
+    border-radius: 50px;
+    color: aliceblue;
+    margin-bottom: 3rem;
+    border: 5px solid white;
+}
+button{
+    padding: 5px 1rem;
+    border: none;
+    outline: none;
+    margin: 5px 5px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+}
+.start{
+    background: green;
+}
+.pause{
+    background: blue;
+}
+.reset{
+    background: red;
+}
